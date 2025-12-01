@@ -90,7 +90,7 @@ main h2 {
 }
 
 .project-title-container img {
-  height: 1.2rem;
+  height: 2rem;
   justify-self: end;
   padding: 3px;
 }
@@ -149,4 +149,9 @@ footer p {
 
 .icon-container img {
   height: 2rem;
+}
+
+#footer-img {
+  width: 100vw;
+  margin: 0px -30px -5px -30px;
 }
