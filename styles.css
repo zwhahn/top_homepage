@@ -74,7 +74,6 @@ main h2 {
 .project-picture {
   text-align: center;
   font-size: 2rem;
-  background-color: red;
   color: white;
   width: calc(100vw - 60px);
   height: 30vh;
@@ -154,4 +153,21 @@ footer p {
 #footer-img {
   width: 100vw;
   margin: 0px -30px -5px -30px;
+}
+
+@media (min-width: 500px) {
+  .header-color-block {
+    height: 400px;
+    transform: translate(0px, -140px) skewY(-15deg);
+  }
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    column-gap: 30px;
+    row-gap: 30px;
+    padding: 0px 60px;
+  }
+  .project-picture {
+    width: auto;
+  }
 }
