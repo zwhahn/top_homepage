@@ -1,11 +1,37 @@
+:root {
+  --blue-background: #0891b2;
+}
+
 * {
   margin: 0px;
   box-sizing: border-box;
 }
 
-img {
+.color-block {
+  position: absolute;
   width: 100vw;
-  padding: 20px 20px 20px 20px;
+  height: 300px;
+  background-color: var(--blue-background);
+  transform: translate(0px, -120px) skewY(-15deg);
+  z-index: -1;
+}
+
+.portrait-container {
+  width: calc(100vw - 40px);
+  position: relative;
+  margin: 20px 20px 20px 20px;
+}
+
+.portrait-container img {
+  width: calc(100vw - 40px);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-text {
+  position: absolute;
+  color: white;
+  padding: 10px 10px;
+  transform: translate(0%, -100%);
 }
 
 .grid-container {
