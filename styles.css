@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-.color-block {
+.header-color-block {
   position: absolute;
   width: 100vw;
   height: 300px;
@@ -59,6 +59,12 @@ main {
 
 main h2 {
   margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.grid-container {
+  display: grid;
+  row-gap: 20px;
 }
 
 .cell-container {
@@ -72,17 +78,75 @@ main h2 {
   color: white;
   width: calc(100vw - 60px);
   height: 30vh;
-  display: grid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-title-container {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.project-title-container img {
+  height: 1.2rem;
+  justify-self: end;
+  padding: 3px;
+}
+
+.project-title-container h3 {
+  flex-grow: 1;
 }
 
 .project-info-container {
-  /* background-color: aquamarine; */
   display: flex;
   flex-direction: column;
   margin-left: 15px;
+  margin-right: 15px;
 }
 
 .project-info-container h3,
 .project-description {
   margin-top: 15px;
+}
+
+.project-description {
+  margin-bottom: 15px;
+}
+
+footer {
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: var(--blue-background);
+}
+
+footer h2 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.address-container {
+  padding: 20px 0px;
+}
+
+.phone-number {
+  padding-bottom: 5px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 0px;
+}
+
+.icon-container img {
+  height: 2rem;
 }
