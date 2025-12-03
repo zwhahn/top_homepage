@@ -119,6 +119,7 @@ footer {
   padding-left: 30px;
   padding-right: 30px;
   background-color: var(--blue-background);
+  color: white;
 }
 
 footer h2 {
@@ -202,5 +203,27 @@ footer p {
   }
   .project-picture {
     width: auto;
+  }
+
+  footer {
+    display: flex;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #footer-img {
+    width: 300px;
+    margin: 0px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  footer h2 {
+    padding-bottom: 20px;
   }
 }
