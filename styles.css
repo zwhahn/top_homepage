@@ -40,7 +40,7 @@
 }
 
 .banner h2 {
-  align-self: center;
+  text-align: center;
 }
 
 .banner p {
@@ -156,10 +156,44 @@ footer p {
 }
 
 @media (min-width: 500px) {
-  .header-color-block {
-    height: 400px;
-    transform: translate(0px, -140px) skewY(-15deg);
+  .banner {
+    display: block;
   }
+
+  .portrait-container {
+    width: auto;
+  }
+
+  .portrait-container img {
+    width: 400px;
+    position: relative;
+    float: left;
+    margin: 10px;
+  }
+
+  .image-text {
+    transform: translate(5%, 390%);
+  }
+
+  .about-me {
+    background-color: white;
+    width: calc(100vw - 80px);
+    margin-top: 60px;
+    margin-left: 60px;
+    padding-top: 60px;
+    text-align: center;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .about-me h2 {
+    text-align: center;
+  }
+
+  .header-color-block {
+    height: 600px;
+    transform: translate(0px, -300px) skewY(-15deg);
+  }
+
   .grid-container {
     grid-template-columns: 1fr 1fr;
     width: 100vw;
