@@ -165,14 +165,14 @@ footer p {
   }
 
   .portrait-container img {
-    width: 400px;
+    width: 350px;
     position: relative;
     float: left;
     margin: 10px;
   }
 
   .image-text {
-    transform: translate(5%, 390%);
+    transform: translate(5%, 330%);
   }
 
   .about-me {
@@ -181,7 +181,6 @@ footer p {
     margin-top: 60px;
     margin-left: 60px;
     padding-top: 60px;
-    text-align: center;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
   }
 
